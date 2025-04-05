@@ -1,0 +1,712 @@
+[
+  {
+    "response_type": "greeting",
+    "user_input": ["hello", "hii", "hey"],
+    "bot_response": "Hey there!",
+    "required_words": []
+  },
+  {
+    "response_type": "greeting",
+    "user_input": ["see you", "goodbye", "bye"],
+    "bot_response": "See you later!",
+    "required_words": []
+  },
+  {
+    "response_type": "greeting",
+    "user_input": ["nice", "to", "meet", "you"],
+    "bot_response": "The pleasure is all mine!",
+    "required_words": ["nice", "meet", "you"]
+  },
+  {
+    "response_type": "question",
+    "user_input": ["how", "to", "learn", "code", "coding", "apps"],
+    "bot_response": "Start by typing: 'How to learn coding' on Google.",
+    "required_words": ["learn", "code"]
+  },
+  {
+    "response_type": "question",
+    "user_input": ["refund", "how", "can", "I", "get"],
+    "bot_response": "We don't offer refunds for free education.",
+    "required_words": ["refund", "i"]
+  },
+  {
+    "response_type": "question",
+    "user_input": ["how", "are", "you"],
+    "bot_response": "I'm great! Thanks for asking.",
+    "required_words": ["how", "are", "you"]
+  },
+  {
+    "response_type": "question",
+    "user_input": ["who", "are", "you"],
+    "bot_response": "I am Chatbox. I am here to help you.",
+    "required_words": ["who", "are", "you"]
+  },
+  {
+    "response_type": "worry",
+    "user_input": ["I", "have", "cold"],
+    "bot_response": "Sorry to hear that. You should eat hot and spicy food.",
+    "required_words": ["I", "have", "cold"]
+  },
+  {
+    "response_type": "worry",
+    "user_input": ["I", "have","headache"],
+    "bot_response": "Stay hydrated, rest in a dark room, and take over-the-counter pain relievers.",
+    "required_words": ["I", "have","headache"]
+  },
+    {
+      "response_type": "worry",
+      "user_input": ["I", "have", "cough", "coughing", "dry cough"],
+      "bot_response": "Stay hydrated, try honey in warm water, and avoid irritants like smoke. If coughing persists beyond a week, see a doctor.",
+      "required_words": ["i", "have", "cough"]
+    },
+    {
+      "response_type": "worry",
+      "user_input": ["I", "have", "fever", "high temperature"],
+      "bot_response": "Rest, hydrate, and take acetaminophen. Seek help if fever exceeds 103°F (39.4°C) or lasts over 3 days.",
+      "required_words": ["i", "have", "fever"]
+    },
+    {
+      "response_type": "worry",
+      "user_input": ["I", "have", "sore throat", "throat pain"],
+      "bot_response": "Gargle with warm salt water, drink fluids, and rest. If severe or lasts >48 hours, consult a doctor.",
+      "required_words": ["i", "have", "sore", "throat"]
+    },
+    {
+      "response_type": "worry",
+      "user_input": ["I", "have", "nausea", "feeling sick"],
+      "bot_response": "Sip ginger tea or clear fluids. Avoid heavy meals. If accompanied by vomiting/dizziness, seek medical care.",
+      "required_words": ["i", "have", "nausea"]
+    },
+    {
+      "response_type": "worry",
+      "user_input": ["I", "have", "diarrhea", "upset stomach"],
+      "bot_response": "Drink electrolytes, eat bland foods (e.g., bananas, rice), and avoid dairy. Consult a doctor if severe or bloody.",
+      "required_words": ["i", "have", "diarrhea"]
+    },
+    {
+      "response_type": "worry",
+      "user_input": ["I", "have", "back pain", "backache"],
+      "bot_response": "Apply ice/heat, avoid heavy lifting, and try gentle stretches. If pain radiates to legs or causes numbness, see a doctor.",
+      "required_words": ["i", "have", "back", "pain"]
+    },
+    {
+      "response_type": "worry",
+      "user_input": ["I", "have", "sunburn", "sunburned skin"],
+      "bot_response": "Apply aloe vera, stay hydrated, and avoid sun exposure. Use OTC pain relievers if needed. Seek help for blisters/fever.",
+      "required_words": ["i", "have", "sunburn"]
+    },
+    {
+      "response_type": "worry",
+      "user_input": ["I", "have", "insomnia", "can't sleep"],
+      "bot_response": "Limit screen time before bed, maintain a sleep schedule, and try relaxation techniques. Consult a doctor if chronic.",
+      "required_words": ["i", "have", "insomnia"]
+    },
+    {
+      "response_type": "worry",
+      "user_input": ["I", "have", "allergies", "sneezing"],
+      "bot_response": "Take antihistamines, avoid allergens, and use a saline nasal rinse. Seek help for breathing difficulties.",
+      "required_words": ["i", "have", "allergies"]
+    },
+    {
+      "response_type": "worry",
+      "user_input": ["I", "have", "heartburn", "acid reflux"],
+      "bot_response": "Avoid spicy/fatty foods, eat smaller meals, and try antacids. If frequent, consult a doctor to rule out GERD.",
+      "required_words": ["i", "have", "heartburn"]
+    },
+    {
+      "response_type": "worry",
+      "user_input": ["I", "have", "muscle pain", "muscle ache"],
+      "bot_response": "Rest, apply ice/heat, and gently stretch. Consider OTC pain relievers. If severe/swelling occurs, seek medical advice.",
+      "required_words": ["i", "have", "muscle", "pain"]
+    },
+    {
+      "response_type": "worry",
+      "user_input": ["I", "have", "dizziness", "vertigo"],
+      "bot_response": "Sit/lie down immediately, hydrate, and avoid sudden movements. If accompanied by chest pain/confusion, seek urgent care.",
+      "required_words": ["i", "have", "dizziness"]
+    },
+    {
+      "response_type": "worry",
+      "user_input": ["I", "have", "toothache", "dental pain"],
+      "bot_response": "Rinse with warm salt water, use floss to remove debris, and see a dentist promptly. Avoid sugary foods.",
+      "required_words": ["i", "have", "toothache"]
+    },
+    {
+      "response_type": "worry",
+      "user_input": ["I", "have", "rash", "skin irritation"],
+      "bot_response": "Apply hydrocortisone cream and avoid scratching. If rash spreads or you develop a fever, consult a doctor.",
+      "required_words": ["i", "have", "rash"]
+    },
+    {
+      "response_type": "worry",
+      "user_input": ["I", "have", "fatigue", "extreme tiredness"],
+      "bot_response": "Ensure adequate sleep, hydrate, and check for nutrient deficiencies (e.g., iron, B12). Rule out chronic conditions with a doctor.",
+      "required_words": ["i", "have", "fatigue"]
+    },
+    {
+      "response_type": "worry",
+      "user_input": ["I", "have", "constipation", "bowel issues"],
+      "bot_response": "Increase fiber intake, drink water, and exercise. Use stool softeners if needed. Seek help for severe pain/bloating.",
+      "required_words": ["i", "have", "constipation"]
+    },
+    {
+      "response_type": "worry",
+      "user_input": ["I", "have", "earache", "ear pain"],
+      "bot_response": "Apply a warm compress and avoid inserting objects into the ear. Consult a doctor for persistent pain or fever.",
+      "required_words": ["i", "have", "earache"]
+    },
+    {
+      "response_type": "worry",
+      "user_input": ["I", "have", "anxiety", "panic attack"],
+      "bot_response": "Practice deep breathing, grounding techniques, and limit stimulants like caffeine. Seek professional help if persistent.",
+      "required_words": ["i", "have", "anxiety"]
+    },
+    {
+      "response_type": "worry",
+      "user_input": ["I", "have", "dehydration", "dry mouth"],
+      "bot_response": "Drink water or oral rehydration solutions. Avoid alcohol/caffeine. Seek help for dizziness/rapid heartbeat.",
+      "required_words": ["i", "have", "dehydration"]
+    },
+    {
+      "response_type": "worry",
+      "user_input": ["I", "have", "flu", "influenza"],
+      "bot_response": "Rest, hydrate, and take antiviral medication if prescribed. Isolate to avoid spreading the virus. Seek help for breathing difficulties.",
+      "required_words": ["i", "have", "flu"]
+    },
+    
+      {
+        "response_type": "worry",
+        "user_input": ["I", "have", "sore", "throat", "throat", "pain"],
+        "bot_response": "Gargle with warm salt water and stay hydrated. Avoid cold drinks. If it persists beyond 5 days, see a doctor.",
+        "required_words": ["i", "have", "sore", "throat"]
+      },
+      {
+        "response_type": "worry",
+        "user_input": ["I", "have", "stomachache", "stomach", "pain"],
+        "bot_response": "Avoid spicy/fatty foods, sip peppermint tea, and rest. Seek help for severe pain, vomiting, or fever.",
+        "required_words": ["i", "have", "stomachache"]
+      },
+      {
+        "response_type": "worry",
+        "user_input": ["I", "have", "sprained", "ankle", "twisted", "ankle"],
+        "bot_response": "Follow RICE: Rest, Ice, Compression, Elevation. Avoid weight-bearing. See a doctor if swelling worsens.",
+        "required_words": ["i", "have", "sprained", "ankle"]
+      },
+      {
+        "response_type": "worry",
+        "user_input": ["I", "have", "burn", "burned", "skin"],
+        "bot_response": "Run cool water over the burn for 10-15 minutes. Cover with a sterile bandage. Seek help for large or deep burns.",
+        "required_words": ["i", "have", "burn"]
+      },
+      {
+        "response_type": "worry",
+        "user_input": ["I", "have", "migraine", "severe", "headache"],
+        "bot_response": "Rest in a dark, quiet room. Use OTC pain relievers and stay hydrated. Consult a doctor for frequent migraines.",
+        "required_words": ["i", "have"]
+      },
+      {
+        "response_type": "worry",
+        "user_input": ["I", "have", "asthma", "wheezing", "breathing"],
+        "bot_response": "Use your inhaler as prescribed. Sit upright and stay calm. Seek emergency care if breathing doesn’t improve.",
+        "required_words": ["i", "have", "asthma"]
+      },
+      {
+        "response_type": "worry",
+        "user_input": ["I", "have", "cut", "bleeding", "wound"],
+        "bot_response": "Clean with water, apply pressure with a clean cloth, and bandage. Seek help for deep cuts or uncontrolled bleeding.",
+        "required_words": ["i", "have", "cut"]
+      },
+      {
+        "response_type": "worry",
+        "user_input": ["I", "have", "anxiety", "panic", "attack"],
+        "bot_response": "Practice deep breathing and grounding techniques. Limit caffeine. If persistent, consult a mental health professional.",
+        "required_words": ["i", "have", "anxiety"]
+      },
+      {
+        "response_type": "worry",
+        "user_input": ["I", "have", "allergic", "reaction", "hives"],
+        "bot_response": "Take antihistamines immediately. For swelling/difficulty breathing, use an epinephrine pen and call emergency services.",
+        "required_words": ["i", "have", "allergic", "reaction"]
+      },
+      {
+        "response_type": "worry",
+        "user_input": ["I", "have", "nosebleed", "bleeding", "nose"],
+        "bot_response": "Sit upright, pinch the soft part of your nose for 10 minutes, and lean forward. Avoid tilting your head back.",
+        "required_words": ["i", "have", "nosebleed"]
+      },
+      
+        {
+          "response_type": "worry",
+          "user_input": ["i", "have", "chills", "shivering"],
+          "bot_response": "Rest, stay warm, and monitor your temperature. If chills persist with fever, consult a doctor.",
+          "required_words": ["i", "have", "chills"]
+        },
+        {
+          "response_type": "worry",
+          "user_input": ["i", "have", "blisters", "skin", "sores"],
+          "bot_response": "Keep the area clean and dry. Avoid popping blisters. Seek help for signs of infection (redness, pus).",
+          "required_words": ["i", "have", "blisters"]
+        },
+        {
+          "response_type": "worry",
+          "user_input": ["i", "have", "hiccups", "hiccough"],
+          "bot_response": "Hold your breath, sip cold water, or breathe into a paper bag. Persistent hiccups (>48 hours) need medical evaluation.",
+          "required_words": ["i", "have", "hiccups"]
+        },
+        {
+          "response_type": "worry",
+          "user_input": ["i", "have", "dry", "eyes", "eye", "irritation"],
+          "bot_response": "Use artificial tears, avoid screens, and wear sunglasses outdoors. Consult an eye doctor if symptoms worsen.",
+          "required_words": ["i", "have", "dry", "eyes"]
+        },
+        {
+          "response_type": "worry",
+          "user_input": ["i", "have", "bruise", "bruising", "contusion"],
+          "bot_response": "Apply ice to reduce swelling. Seek help for bruising without injury or if accompanied by severe pain.",
+          "required_words": ["i", "have", "bruise"]
+        },
+        {
+          "response_type": "worry",
+          "user_input": ["i", "have", "swollen", "glands", "lymph", "nodes"],
+          "bot_response": "Rest and monitor. If swelling persists >2 weeks or includes fever, see a doctor.",
+          "required_words": ["i", "have", "swollen", "glands"]
+        },
+        {
+          "response_type": "worry",
+          "user_input": ["i", "have", "indigestion", "upset", "stomach"],
+          "bot_response": "Avoid fatty/spicy foods, eat slowly, and try antacids. Persistent indigestion may need medical evaluation.",
+          "required_words": ["i", "have", "indigestion"]
+        },
+        {
+          "response_type": "worry",
+          "user_input": ["i", "have", "pink", "eye", "conjunctivitis"],
+          "bot_response": "Use clean compresses and avoid touching eyes. Consult a doctor for prescription eye drops.",
+          "required_words": ["i", "have", "pink", "eye"]
+        },
+        {
+          "response_type": "worry",
+          "user_input": ["i", "have", "sinus", "pressure", "congestion"],
+          "bot_response": "Use a saline nasal spray, stay hydrated, and try steam inhalation. Seek help for severe pain/fever.",
+          "required_words": ["i", "have", "sinus", "pressure"]
+        },
+        {
+          "response_type": "worry",
+          "user_input": ["i", "have", "UTI", "urinary", "infection"],
+          "bot_response": "Drink cranberry juice (unsweetened) and water. Consult a doctor for antibiotics if symptoms persist.",
+          "required_words": ["i", "have", "uti"]
+        },
+        {
+          "response_type": "worry",
+          "user_input": ["i", "have", "heat", "exhaustion", "overheated"],
+          "bot_response": "Move to a cool place, hydrate, and apply wet cloths. Seek emergency care for confusion/vomiting.",
+          "required_words": ["i", "have", "heat", "exhaustion"]
+        },
+        {
+          "response_type": "worry",
+          "user_input": ["i", "have", "poison", "ivy", "rash"],
+          "bot_response": "Wash the area with soap, apply calamine lotion, and avoid scratching. Seek help for severe swelling.",
+          "required_words": ["i", "have", "poison", "ivy"]
+        },
+        {
+          "response_type": "worry",
+          "user_input": ["i", "have", "spider", "bite", "insect", "bite"],
+          "bot_response": "Clean the area, apply ice, and monitor for allergic reactions. Seek help for severe pain/swelling.",
+          "required_words": ["i", "have", "spider", "bite"]
+        },
+        {
+          "response_type": "worry",
+          "user_input": ["i", "have", "shin", "splints", "leg", "pain"],
+          "bot_response": "Rest, ice the area, and avoid high-impact activities. See a physiotherapist for persistent pain.",
+          "required_words": ["i", "have", "shin", "splints"]
+        },
+        {
+          "response_type": "worry",
+          "user_input": ["i", "have", "gingivitis", "gum", "bleeding"],
+          "bot_response": "Brush gently with fluoride toothpaste, floss daily, and see a dentist for professional cleaning.",
+          "required_words": ["i", "have", "gingivitis"]
+        },
+        {
+          "response_type": "worry",
+          "user_input": ["i", "have", "food", "poisoning", "vomiting"],
+          "bot_response": "Stay hydrated with electrolytes, avoid solid foods initially, and rest. Seek help for blood in vomit/stool.",
+          "required_words": ["i", "have", "food", "poisoning"]
+        },
+        {
+          "response_type": "worry",
+          "user_input": ["i", "have", "jock", "itch", "fungal", "infection"],
+          "bot_response": "Keep the area dry, apply antifungal cream, and wear loose clothing. Consult a doctor if it spreads.",
+          "required_words": ["i", "have", "jock", "itch"]
+        },
+        {
+          "response_type": "worry",
+          "user_input": ["i", "have", "carpal", "tunnel", "wrist", "pain"],
+          "bot_response": "Rest your wrist, use a splint, and do gentle stretches. See a doctor for numbness/weakness.",
+          "required_words": ["i", "have", "carpal", "tunnel"]
+        },
+        {
+          "response_type": "worry",
+          "user_input": ["i", "have", "panic", "attack", "anxiety"],
+          "bot_response": "Focus on slow breathing (4-7-8 technique). If frequent, consult a mental health professional.",
+          "required_words": ["i", "have", "panic", "attack"]
+        },
+        {
+          "response_type": "worry",
+          "user_input": ["i", "have", "pulled", "muscle", "muscle", "strain"],
+          "bot_response": "Apply ice for 20 minutes, rest, and avoid strenuous activity. Seek help for severe pain/swelling.",
+          "required_words": ["i", "have", "pulled", "muscle"]
+        },
+        
+          {
+            "response_type": "diet",
+            "user_input": ["i", "have", "diarrhea", "upset", "stomach"],
+            "bot_response": "Eat bland foods like bananas, rice, applesauce, and toast (BRAT diet). Avoid dairy, caffeine, and fatty foods. Drink electrolytes.",
+            "required_words": ["i", "have", "diarrhea"]
+          },
+          {
+            "response_type": "diet",
+            "user_input": ["i", "have", "constipation", "bowel", "issues"],
+            "bot_response": "Eat high-fiber foods (apples, oats, broccoli) and prunes. Drink warm water with lemon. Avoid processed foods.",
+            "required_words": ["i", "have", "constipation"]
+          },
+          {
+            "response_type": "diet",
+            "user_input": ["i", "have", "sore", "throat", "throat", "pain"],
+            "bot_response": "Eat soft foods: warm soup, mashed potatoes, yogurt, or honey in tea. Avoid citrus and spicy foods.",
+            "required_words": ["i", "have", "sore", "throat"]
+          },
+          {
+            "response_type": "diet",
+            "user_input": ["i", "have", "acid", "reflux", "heartburn"],
+            "bot_response": "Eat oatmeal, ginger, or almonds. Avoid citrus, chocolate, fried foods, and large meals before bed.",
+            "required_words": ["i", "have", "acid", "reflux"]
+          },
+          {
+            "response_type": "diet",
+            "user_input": ["i", "have", "anemia", "low", "iron"],
+            "bot_response": "Eat iron-rich foods: spinach, lentils, red meat, and fortified cereals. Pair with vitamin C (oranges) for absorption.",
+            "required_words": ["i", "have", "anemia"]
+          },
+          {
+            "response_type": "diet",
+            "user_input": ["i", "have", "high", "blood", "pressure"],
+            "bot_response": "Focus on potassium-rich foods: bananas, sweet potatoes, and leafy greens. Avoid salt, processed meats, and canned soups.",
+            "required_words": ["i", "have", "high", "blood", "pressure"]
+          },
+          {
+            "response_type": "diet",
+            "user_input": ["i", "have", "migraine", "headache", "during"],
+            "bot_response": "Eat magnesium-rich foods: almonds, spinach, and avocados. Avoid aged cheese, processed meats, and alcohol.",
+            "required_words": ["i", "have", "migraine"]
+          },
+          {
+            "response_type": "diet",
+            "user_input": ["i", "have", "cold", "flu", "cough"],
+            "bot_response": "Eat garlic, citrus fruits, and chicken soup. Stay hydrated with herbal teas. Avoid sugary drinks.",
+            "required_words": ["i", "have", "cold"]
+          },
+          {
+            "response_type": "diet",
+            "user_input": ["i", "have", "arthritis", "joint", "pain"],
+            "bot_response": "Eat anti-inflammatory foods: fatty fish (salmon), turmeric, and berries. Avoid refined carbs and fried foods.",
+            "required_words": ["i", "have", "arthritis"]
+          },
+          {
+            "response_type": "diet",
+            "user_input": ["i", "have", "diabetes", "high", "sugar"],
+            "bot_response": "Choose low-glycemic foods: quinoa, non-starchy veggies, and nuts. Avoid sugary snacks and refined grains.",
+            "required_words": ["i", "have", "diabetes"]
+          } , 
+          {
+            "response_type": "diet",
+            "user_input": [
+              "what", "should", "i", "eat", "during", "cold",
+              "what", "to", "eat", "for", "cold",
+              "food", "for", "cold", "flu",
+              "diet", "during", "cough"
+            ],
+            "bot_response": "For a cold, eat garlic, citrus fruits, chicken soup, and drink herbal teas. Avoid sugary drinks and dairy if congested.",
+            "required_words": ["what", "eat", "cold"]
+          },
+          
+            {
+              "response_type": "diet",
+              "user_input": [
+                "what", "should", "i", "eat", "for", "diabetes",
+                "food", "for", "high", "sugar",
+                "diet", "for", "diabetic"
+              ],
+              "bot_response": "For diabetes, focus on low-glycemic foods like whole grains, leafy greens, and nuts. Avoid sugary snacks, refined carbs, and sweetened beverages.",
+              "required_words": ["what", "eat", "diabetes"]
+            },
+            {
+              "response_type": "diet",
+              "user_input": [
+                "what", "to", "eat", "for", "high", "blood", "pressure",
+                "diet", "during", "hypertension",
+                "food", "for", "high", "bp"
+              ],
+              "bot_response": "For high blood pressure, eat potassium-rich foods like bananas, spinach, and sweet potatoes. Avoid salty snacks, processed meats, and canned soups.",
+              "required_words": ["what", "eat", "high", "blood", "pressure"]
+            },
+            {
+              "response_type": "diet",
+              "user_input": [
+                "what", "should", "i", "eat", "for", "anemia",
+                "food", "for", "low", "iron",
+                "diet", "during", "iron", "deficiency"
+              ],
+              "bot_response": "For anemia, eat iron-rich foods like spinach, lentils, and red meat. Pair with vitamin C sources (oranges, bell peppers) to boost absorption.",
+              "required_words": ["what", "eat", "anemia"]
+            },
+            {
+              "response_type": "diet",
+              "user_input": [
+                "what", "to", "eat", "for", "acid", "reflux",
+                "diet", "for", "heartburn",
+                "food", "during", "gerd"
+              ],
+              "bot_response": "For acid reflux, eat oatmeal, ginger, and non-citrus fruits. Avoid spicy foods, chocolate, caffeine, and large meals before bed.",
+              "required_words": ["what", "eat", "acid", "reflux"]
+            },
+            {
+              "response_type": "diet",
+              "user_input": [
+                "what", "should", "i", "eat", "for", "arthritis",
+                "diet", "for", "joint", "pain",
+                "food", "to", "reduce", "inflammation"
+              ],
+              "bot_response": "For arthritis, eat anti-inflammatory foods like fatty fish (salmon), turmeric, and berries. Avoid fried foods and refined sugars.",
+              "required_words": ["what", "eat", "arthritis"]
+            },
+            {
+              "response_type": "diet",
+              "user_input": [
+                "what", "to", "eat", "for", "migraine",
+                "diet", "during", "headache",
+                "food", "for", "migraines"
+              ],
+              "bot_response": "For migraines, eat magnesium-rich foods like almonds, spinach, and avocados. Avoid aged cheeses, processed meats, and alcohol.",
+              "required_words": ["what", "eat", "migraine"]
+            },
+             
+  
+  {  
+    "response_type": "diet",  
+    "user_input": [  
+      "what", "eat", "diabetes",  
+      "diet", "for", "high", "sugar",  
+      "food", "to", "avoid", "diabetic"  
+    ],  
+    "bot_response": "For diabetes, choose low-glycemic foods like quinoa, leafy greens, and nuts. Avoid sugary snacks, white bread, and sweetened drinks.",  
+    "required_words": ["what", "eat", "diabetes"]  
+  },  
+
+  
+  {  
+    "response_type": "diet",  
+    "user_input": [  
+      "what", "should", "i", "eat", "for", "high", "cholesterol",  
+      "diet", "to", "lower", "ldl"  
+    ],  
+    "bot_response": "For high cholesterol, eat oats, fatty fish (salmon), and walnuts. Avoid trans fats (fried foods) and limit red meat.",  
+    "required_words": ["what", "eat", "cholesterol"]  
+  },  
+
+  
+  {  
+    "response_type": "diet",  
+    "user_input": [  
+      "what", "to", "eat", "for", "ibs",  
+      "food", "for", "irritable", "bowel"  
+    ],  
+    "bot_response": "For IBS, try a low-FODMAP diet: zucchini, carrots, and gluten-free grains. Avoid beans, garlic, and dairy if lactose intolerant.",  
+    "required_words": ["what", "eat", "ibs"]  
+  },  
+
+  {  
+    "response_type": "diet",  
+    "user_input": [  
+      "diet", "for", "hypothyroidism",  
+      "what", "eat", "underactive", "thyroid"  
+    ],  
+    "bot_response": "For hypothyroidism, eat selenium-rich foods (Brazil nuts, tuna) and iodine sources (seaweed). Avoid raw cruciferous vegetables (kale, broccoli).",  
+    "required_words": ["what", "eat", "thyroid"]  
+  },  
+
+  {  
+    "response_type": "diet",  
+    "user_input": [  
+      "what", "should", "i", "eat", "for", "pcos",  
+      "diet", "for", "polycystic", "ovary"  
+    ],  
+    "bot_response": "For PCOS, focus on high-fiber foods (berries, lentils) and lean proteins. Avoid refined carbs and sugary drinks.",  
+    "required_words": ["what", "eat", "pcos"]  
+  },  
+
+  {  
+    "response_type": "diet",  
+    "user_input": [  
+      "what", "to", "eat", "for", "gout",  
+      "food", "to", "avoid", "uric", "acid"  
+    ],  
+    "bot_response": "For gout, eat cherries, low-fat dairy, and whole grains. Avoid organ meats, shellfish, and alcohol.",  
+    "required_words": ["what", "eat", "gout"]  
+  },  
+
+  {  
+    "response_type": "diet",  
+    "user_input": [  
+      "diet", "for", "fatty", "liver",  
+      "what", "eat", "liver", "health"  
+    ],  
+    "bot_response": "For fatty liver, eat leafy greens, green tea, and olive oil. Avoid alcohol, sugary snacks, and fried foods.",  
+    "required_words": ["what", "eat", "liver"]  
+  },  
+
+  {  
+    "response_type": "diet",  
+    "user_input": [  
+      "what", "should", "i", "eat", "for", "osteoporosis",  
+      "food", "for", "bone", "health"  
+    ],  
+    "bot_response": "For osteoporosis, prioritize calcium (dairy, fortified plant milk) and vitamin D (eggs, mushrooms). Limit caffeine and soda.",  
+    "required_words": ["what", "eat", "osteoporosis"]  
+  },  
+
+  {  
+    "response_type": "diet",  
+    "user_input": [  
+      "diet", "for", "depression",  
+      "food", "to", "improve", "mood"  
+    ],  
+    "bot_response": "For depression, eat omega-3-rich foods (salmon, flaxseeds) and folate sources (spinach, avocado). Avoid processed foods.",  
+    "required_words": ["what", "eat", "depression"]  
+  },  
+
+  {  
+    "response_type": "diet",  
+    "user_input": [  
+      "what", "to", "eat", "during", "pregnancy",  
+      "prenatal", "diet"  
+    ],  
+    "bot_response": "During pregnancy, eat folate-rich foods (lentils, spinach), iron (lean meat), and calcium (yogurt). Avoid raw fish and unpasteurized cheese.",  
+    "required_words": ["what", "eat", "pregnancy"]  
+  },  
+
+  {  
+    "response_type": "diet",  
+    "user_input": [  
+      "diet", "for", "kidney", "stones",  
+      "what", "avoid", "calcium", "oxalate"  
+    ],  
+    "bot_response": "For kidney stones, drink plenty of water, eat citrus fruits, and limit sodium. Avoid spinach, nuts, and processed meats.",  
+    "required_words": ["what", "eat", "kidney", "stones"]  
+  },  
+
+  {  
+    "response_type": "diet",  
+    "user_input": [  
+      "what", "to", "eat", "for", "gluten", "sensitivity",  
+      "diet", "celiac", "disease"  
+    ],  
+    "bot_response": "For gluten sensitivity, choose gluten-free grains (quinoa, rice) and fresh produce. Avoid wheat, barley, and processed foods with hidden gluten.",  
+    "required_words": ["what", "eat", "gluten"]  
+  }  ,
+  
+    {
+      "response_type": "hospital_info",
+      "user_input": [
+        "orthopedic hospital chennai",
+        "bone specialist hospital chennai",
+        "miot orthopedic care"
+      ],
+      "bot_response": "MIOT International Hospital (Orthopedics): 4/112, Mount Poonamallee Rd, Chennai. Contact: +91-44-2249 2288. Specialties: Joint Replacement, Sports Medicine, Spine Surgery.",
+      "required_words": ["hospital", "chennai"]
+    },
+    {
+      "response_type": "hospital_info",
+      "user_input": [
+        "neurology hospital chennai",
+        "brain and nerve specialist chennai",
+        "apollo neurology institute"
+      ],
+      "bot_response": "Apollo Hospitals (Neurology): 21, Greams Lane, Chennai. Contact: +91-44-2829 3333. Specialties: Stroke Care, Epilepsy, Neurorehabilitation.",
+      "required_words": ["hospital", "chennai"]
+    },
+    {
+      "response_type": "hospital_info",
+      "user_input": [
+        "gastroenterology hospital chennai",
+        "stomach specialist hospital chennai",
+        "global hospital gastroenterology"
+      ],
+      "bot_response": "Global Hospitals (Gastroenterology): 439, Cheran Nagar, Chennai. Contact: +91-44-2277 7777. Specialties: Liver Transplants, IBD, Pancreatic Disorders.",
+      "required_words": ["hospital", "chennai"]
+    },
+    {
+      "response_type": "hospital_info",
+      "user_input": [
+        "cardiology hospital chennai",
+        "heart specialist hospital chennai",
+        "fortis heart care"
+      ],
+      "bot_response": "Fortis Malar Hospital (Cardiology): 52, East Coast Rd, Chennai. Contact: +91-44-2249 2249. Specialties: Angioplasty, Bypass Surgery, Arrhythmia Treatment.",
+      "required_words": ["hospital", "chennai"]
+    },
+    {
+      "response_type": "hospital_info",
+      "user_input": [
+        "nephrology hospital chennai",
+        "kidney specialist hospital chennai",
+        "sri ramachandra dialysis"
+      ],
+      "bot_response": "Sri Ramachandra Hospital (Nephrology): No.1, Ramachandra Nagar, Chennai. Contact: +91-44-2476 8000. Specialties: Dialysis, Kidney Transplants, Chronic Kidney Disease.",
+      "required_words": ["hospital", "chennai"]
+    },
+    {
+      "response_type": "hospital_info",
+      "user_input": [
+        "dermatology hospital chennai",
+        "skin specialist hospital chennai",
+        "vijaya skin clinic"
+      ],
+      "bot_response": "Vijaya Hospital (Dermatology): 180, NSK Salai, Vadapalani, Chennai. Contact: +91-44-2488 5858. Specialties: Psoriasis, Acne, Laser Treatments.",
+      "required_words": ["hospital", "chennai"]
+    },
+    {
+      "response_type": "hospital_info",
+      "user_input": [
+        "ophthalmology hospital chennai",
+        "eye specialist hospital chennai",
+        "sankara eye hospital"
+      ],
+      "bot_response": "Sankara Eye Hospital: GST Road, Chennai. Contact: +91-44-2480 2480. Specialties: Cataract Surgery, Retina Care, LASIK.",
+      "required_words": ["hospital", "chennai"]
+    },
+    {
+      "response_type": "hospital_info",
+      "user_input": [
+        "ent hospital chennai",
+        "ear nose throat specialist chennai",
+        "sri balaji ent care"
+      ],
+      "bot_response": "Sri Balaji ENT Hospital: 18, North Usman Rd, Chennai. Contact: +91-44-2811 4444. Specialties: Sinusitis, Hearing Loss, Tonsillectomy.",
+      "required_words": ["hospital", "chennai"]
+    },{
+      "response_type": "worry",
+      "user_input": ["kya","re","madharchod"],
+      "bot_response": "backchode mat kar loda",
+      "required_words": ["kya","re","madharchod"]
+    }
+  ]
+
+          
+        
+      
+    
+  
+ 
+
+
+
+  
